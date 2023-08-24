@@ -96,7 +96,7 @@ nav{
 /* Category */
 .book-category-component{
     background-color: white;
-    width: 1180px;
+    width: 70%;
     margin:  0 auto;
 }
 .head-book-category{
@@ -119,10 +119,12 @@ nav{
     margin-top: 10px;
     grid-template-columns: repeat(6, 1fr);
     justify-items: center;
+    margin-bottom: 10px;
 }
 .book-menu{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 .content-book-menu{
     margin-top: 10px;
