@@ -1,0 +1,144 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #e8e8e8;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Start :  Header */
+.header{
+    /* position: relative; */
+    background: #CC5A8D;
+    top : 0;
+    left: 0;
+    width: 100%; 
+
+}
+.language{
+    margin-left: 10px;
+}
+/*End :  Header */
+
+/* NAV */
+nav{
+    text-align: center;
+    background-color: white;
+}
+.container{
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 42px;
+    align-content: center;
+}
+
+/* Search */
+.search-button{
+    display: flex;
+    /* overflow: hidden; */
+    /* margin-top: 30px; */
+    align-items: center;
+    height: 80px;
+}
+.search-button .search{
+    
+    width: 44px;
+    height: 55%;
+    /* border-radius: 2px solid black; */
+    background-color:  #d1a7ba;
+    border-radius: 0 40px 40px 0;
+    border: solid 1px #d1a7ba;
+}
+.search-button .text-input {
+    height: 55%;
+    width: 530px;
+    border-radius: 40px 0 0 40px;
+    border: solid 1px #d1a7ba;
+    /* text-align: center;  */
+    padding-left: 40px;
+
+}
+
+
+/* End search */
+ .compo{
+    height: 71.25%;
+    align-self: center;
+ }
+ 
+.button{
+
+    height: auto;
+    align-self: center;
+}
+/* End Nav */
+
+.banner{
+    width: 100%;
+    margin-top: 20px;  
+    text-align: center;
+}
+.banner-img{
+    width: 70%;
+}
+
+
+
+/* Category */
+.book-category-component{
+    background-color: white;
+    width: 1180px;
+    margin:  0 auto;
+}
+.head-book-category{
+    display: flex;
+    background-color: #A6CDC8;
+    align-items: center;
+    padding: 5px;
+}
+.content-category{
+    margin-left: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFFFFF ;
+}
+.book-category{
+
+}
+.menu-book-category{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+}
+.book-menu{
+    display: flex;
+    flex-direction: column;
+}
+.content-book-menu{
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.img-size{
+    width: 122px;
+    height: 170px;
+}
+a{
+   text-decoration: none;
+}
+.content-book-menu:hover{
+    font-weight: bolder;
+    color: #CC5A8D;
+}
